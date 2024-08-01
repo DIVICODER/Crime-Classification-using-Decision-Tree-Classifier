@@ -5,7 +5,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
 
 # Load the dataset
-df = pd.read_csv(r"sih.csv")
+df = pd.read_csv(r"crime_classification.csv")
 
 # Display the first few rows of the dataset
 print(df.head())
