@@ -22,5 +22,9 @@ The dataset used in this project contains information about various crimes, incl
 A Decision Tree Classifier is used for classification. The dataset is split into training and testing sets with a 60-40 ratio. The model's performance is evaluated using accuracy and a detailed classification report.
 
 ## Results
-The model achieved an accuracy of approximately 34%. Below is the detailed classification report:
+The model achieved an accuracy of approximately 34%. Below is the 
 
+                          precision    recall  f1-score   support
+
+           Bicycle theft       0.17      0.16      0.16        51
+                Burglary       0.11      0.12      0.12        81
